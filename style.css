@@ -1,0 +1,177 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #180a0a;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+}
+
+img {
+  width: 40px;
+  height: 40px;
+  margin-top: 100px;
+  margin-right: 20px;
+}
+
+span {
+  text-decoration: underline;
+}
+
+.links {
+  cursor: pointer;
+  z-index: 100;
+}
+
+.introduction {
+  margin-top: 300px;
+  margin-left: 45%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  z-index: 100;
+}
+
+.hi {
+  border: solid 1px #f10086;
+  padding: 30px;
+  border-radius: 10px;
+  width: 350px;
+  height: 370px;
+}
+
+p {
+  font-size: 1.2rem;
+}
+
+main {
+  width: 100vw;
+  height: 100vh;
+}
+
+.thanks_container {
+  width: 100vw;
+  height: 100vh;
+}
+
+.hearts_container {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  opacity: 1;
+  margin-bottom: -100px;
+}
+
+.square {
+  position: absolute;
+  bottom: -100px;
+  background: url('./heart_filled.png');
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  animation: hearts 3.5s infinite ease-in-out;
+}
+
+.square:nth-child(1) {
+  width: 65px;
+  height: 55px;
+  left: 7%;
+  animation-delay: 3.5s;
+}
+
+.square:nth-child(2) {
+  width: 65px;
+  height: 55px;
+  left: 16%;
+  animation-delay: 2s;
+}
+
+.square:nth-child(3) {
+  width: 65px;
+  height: 55px;
+  left: 25%;
+  animation-delay: 3s;
+}
+
+.square:nth-child(4) {
+  width: 65px;
+  height: 55px;
+  left: 36%;
+  animation-delay: 1.5s;
+}
+
+.square:nth-child(5) {
+  width: 65px;
+  height: 55px;
+  left: 49%;
+  animation-delay: 3.2s;
+}
+
+.square:nth-child(6) {
+  width: 65px;
+  height: 55px;
+  left: 55%;
+  animation-delay: 2.2s;
+}
+
+.square:nth-child(7) {
+  width: 65px;
+  height: 55px;
+  left: 70%;
+  animation-delay: 1.3s;
+}
+.square:nth-child(8) {
+  width: 65px;
+  height: 55px;
+  left: 80%;
+  animation-delay: 2.5s;
+}
+.square:nth-child(9) {
+  width: 65px;
+  height: 55px;
+  left: 90%;
+  animation-delay: 1.75s;
+}
+.square:nth-child(10) {
+  width: 65px;
+  height: 55px;
+  left: 100%;
+  animation-delay: 3.7s;
+}
+
+@keyframes hearts {
+  0% {
+    bottom: -50px;
+  }
+
+  50% {
+    opacity: 1;
+  }
+
+  55% {
+    opacity: 0;
+  }
+
+  100% {
+    bottom: 100%;
+    transform: rotate(360deg);
+    opacity: 1;
+  }
+}
+
+.project {
+  display: inline-block;
+  color: white;
+  position: absolute;
+  bottom: 400px;
+  left: 800px;
+  padding: 30px;
+  border-radius: 10px;
+  border: solid 1px #f10086;
+  cursor: pointer;
+}
