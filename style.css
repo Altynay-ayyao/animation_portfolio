@@ -102,28 +102,28 @@ main {
   width: 65px;
   height: 55px;
   left: 36%;
-  animation-delay: 1.5s;
+  animation-delay: 0s;
 }
 
 .square:nth-child(5) {
   width: 65px;
   height: 55px;
   left: 49%;
-  animation-delay: 3.2s;
+  animation-delay: 0.5s;
 }
 
 .square:nth-child(6) {
   width: 65px;
   height: 55px;
   left: 55%;
-  animation-delay: 2.2s;
+  animation-delay: 1.2s;
 }
 
 .square:nth-child(7) {
   width: 65px;
   height: 55px;
   left: 70%;
-  animation-delay: 1.3s;
+  animation-delay: 3s;
 }
 .square:nth-child(8) {
   width: 65px;
