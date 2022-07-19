@@ -48,6 +48,10 @@ p {
   font-size: 1.2rem;
 }
 
+.hi a {
+  color: white;
+}
+
 main {
   width: 100vw;
   height: 100vh;
