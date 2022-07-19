@@ -5,10 +5,16 @@
   scroll-behavior: smooth;
 }
 
+html {
+  overflow-y: scroll;
+}
+
 body {
   background-color: #180a0a;
   color: white;
   font-family: 'Montserrat', sans-serif;
+  /* position: absolute; */
+  overflow-y: scroll;
 }
 
 img {
@@ -28,6 +34,8 @@ span {
 }
 
 .introduction {
+  width: 100vw;
+  height: 100vh;
   margin-top: 300px;
   margin-left: 45%;
   display: flex;
@@ -41,11 +49,17 @@ span {
   padding: 30px;
   border-radius: 10px;
   width: 350px;
-  height: 370px;
+  height: 480px;
+}
+
+.hi a {
+  color: white;
 }
 
 p {
   font-size: 1.2rem;
+  margin: 5px;
+  letter-spacing: 2px;
 }
 
 main {
@@ -65,6 +79,7 @@ main {
   overflow: hidden;
   opacity: 1;
   margin-bottom: -100px;
+  overflow-y: scroll;
 }
 
 .square {
@@ -175,4 +190,14 @@ main {
   border-radius: 10px;
   border: solid 1px #f10086;
   cursor: pointer;
+}
+
+.projects_container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 100px;
+  width: 100vw;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
 }
